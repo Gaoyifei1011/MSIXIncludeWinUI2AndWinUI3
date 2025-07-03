@@ -9,6 +9,10 @@
     Title="WinUI3App"
     mc:Ignorable="d">
 
+    <Window.SystemBackdrop>
+        <MicaBackdrop />
+    </Window.SystemBackdrop>
+
     <StackPanel
         HorizontalAlignment="Center"
         VerticalAlignment="Center"
