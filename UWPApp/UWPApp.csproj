@@ -2,7 +2,7 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net9.0-windows10.0.26100.0</TargetFramework>
-    <TargetPlatformMinVersion>10.0.19041.0</TargetPlatformMinVersion>
+    <TargetPlatformMinVersion>10.0.22000.0</TargetPlatformMinVersion>
     <UseUwp>true</UseUwp>
     <UseUwpTools>true</UseUwpTools>
     <Platforms>x86;x64;arm64</Platforms>
@@ -24,7 +24,6 @@
       <SubType>Designer</SubType>
     </Page>
 
-    <PackageReference Include="Microsoft.UI.Xaml" Version="2.8.7-prerelease.241119001" IncludeAssets="none" PrivateAssets="all" GeneratePathProperty="true" />
-    <Reference Include="$(PkgMicrosoft_UI_Xaml)\lib\net8.0-windows10.0.22621.0\Microsoft.UI.Xaml.Projection.dll" />
+    <PackageReference Include="Microsoft.UI.Xaml" Version="2.8.7" />
   </ItemGroup>
 </Project>
